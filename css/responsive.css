@@ -1,0 +1,190 @@
+/* Start Varibal */
+:root {
+  --main-color: crimson;
+  --second-color: #fff;
+  --main-transition: .3s;
+}
+/* End Varibal */
+/* Start Header */
+@media (max-width: 767px) {
+  header .container .menu {
+    position: fixed;
+    background: black;
+    height: 100vh;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+    transition: left var(--main-transition) ease-in-out;
+  }
+  header .container .menu.active {
+    left: 0;
+  }
+  header .container .menu li {
+    margin: 25px 0;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+  }
+  header .container .menu.active li {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  header .container .menu-btn {
+    display: block;
+    z-index: 999;
+  }
+  .menu-btn i.active::before {
+    content: "\f00d";
+    font-family: var(--fa-style-family-classic);
+    font-weight: 900;
+  }
+  .menu-btn i {
+    transition: all 0.3s ease;
+  }
+  .menu-btn i.fa-xmark {
+    transform: rotate(180deg);
+    opacity: 1;
+  }
+}
+/* End Header */
+/* Start Home */
+@media (max-width: 767px) {
+  .home {
+    background-position: top;
+  }
+  .home .container .home-content .text-1 {
+    font-size: 24px;
+  }
+  .home .container .home-content .text-2 {
+    font-size: 60px;
+    margin-left: -3px;
+  }
+  .home .container .home-content .text-3 {
+    font-size: 35px;
+  }
+}
+/* End Home */
+/* start About */
+@media (max-width: 991px) {
+  .about .container .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about .container .about-content .image {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .about .container .about-content .info {
+    width: 100%;
+  }
+  .about .container .about-content .info .about-me ul {
+    list-style: none;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 13px;
+  }
+  .about .container .about-content .info a {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 767px) {
+  .about {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .about .container .main-heading {
+    margin-top: -70px;
+    margin-bottom: -50px;
+  }
+}
+/* End About */
+/* Start Services */
+@media (max-width: 767px) {
+  .services {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .services .container .main-heading {
+    margin-bottom: -45px;
+  }
+}
+/* End Services */
+/* Start Skills */
+@media (max-width: 767px) {
+  .skills {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .skills .container .skills-content .expriences-skill {
+    text-align: center;
+    margin: 0;
+  }
+  .skills .container .skills-content .expriences-skill p {
+    line-height: 1.5;
+    word-spacing: -3px;
+    margin: 15px 0;
+    text-align: justify;
+    text-align-last: center;
+    width: 335px;
+  }
+  .skills .container .skills-content .row-skill {
+    width: calc(100% - 50px);
+    margin-top: -35px;
+    padding-bottom: 30px;
+  }
+  .skills .container .skills-content {
+    flex-direction: column-reverse;
+  }
+}
+/* End Skills */
+/* Start Projects */
+@media (max-width: 767px) {
+  .projects {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .projects .container .main-heading {
+    margin-bottom: -40px;
+  }
+  .card {
+    margin: auto;
+  }
+  .projects .container .projects-content {
+    grid-template-columns: minmax(200px, 1fr);
+    gap: 30px;
+  }
+}
+/* End Projects */
+/* Start Content */
+@media (max-width: 767px) {
+  .contact {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .contact .container .main-heading {
+    margin-bottom: -50px;
+  }
+  .contact .container .contact-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .contact .container .contact-content .left ul li {
+    flex-direction: column;
+  }
+  .contact .container .contact-content .left ul {
+    margin-bottom: -20px;
+  }
+  .contact .container .contact-content .left ul li i {
+    margin: 0 0 10px;
+  }
+  .contact .container .contact-content .left ul li .info {
+    text-align: center;
+  }
+  .contact .container .contact-content .right a {
+    margin: 20px auto 0;
+  }
+}
+/* End Content */
