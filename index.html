@@ -3,340 +3,292 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="css/ali.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="stylesheet" href="css/all.min.css" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <title>Ali Khaled | Full Stack Developer</title>
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css" />
   </head>
+
   <body>
-    <!-- Start Headr -->
-    <header>
-      <div class="container">
-        <div class="logo">
-          <!-- <a href="#">Protfo<span>lio</span></a> -->
-          <a href="#">Eng-A<span>li</span></a>
-        </div>
-        <ul class="menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <a href="#" class="menu-btn">
+    <!-- Header -->
+    <header class="header">
+      <div class="container nav">
+        <a href="#" class="logo">Eng-A<span>li</span></a>
+        <div class="menu-btn">
           <i class="fa-solid fa-bars"></i>
-        </a>
+        </div>
+        <nav class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
       </div>
     </header>
-    <!-- End Headr -->
-    <!-- Start Home Section -->
-    <div class="home" id="home">
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
       <div class="container">
-        <div class="home-content">
-          <div class="text-1">Hello, my name is</div>
-          <div class="text-2">Ali Khaled</div>
-          <div class="text-3">And I'm a <span>Programmer</span></div>
-          <a href="#">Hire me</a>
+        <div class="hero-content fade-in">
+          <p class="hero-subtitle">Hello, I'm</p>
+          <h1 class="hero-title">Ali Khaled</h1>
+          <p class="hero-text">
+            A passionate Computer Science student and aspiring Full Stack Web
+            Developer building modern, responsive, and user-friendly web
+            experiences.
+          </p>
+          <a href="#contact" class="btn btn-primary">Hire Me</a>
+          <a href="#projects" class="btn btn-outline" style="margin-left: 15px"
+            >View Work</a
+          >
         </div>
       </div>
-    </div>
-    <!-- End Home Section -->
-    <!-- Start About Section -->
-    <div class="about" id="about">
+    </section>
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
       <div class="container">
-        <div class="main-heading">
-          <h2>About me</h2>
-          <p>Who i am</p>
+        <div class="section-header text-center fade-in">
+          <p class="section-subtitle">Who I Am</p>
+          <h2 class="section-title">About Me</h2>
         </div>
         <div class="about-content">
-          <div class="image">
-            <img src="image/Ali-Khaled1.jpg" alt="" loading="lazy" />
+          <div class="about-img fade-in">
+            <img src="image/Ali-Khaled1.jpg" alt="Ali Khaled" loading="lazy" />
           </div>
-          <div class="info">
-            <div class="text">
-              I'm Ali Khaled and I'm a <span>Programmer</span>
-            </div>
-            <div class="about-me">
-              I'm a Computer Science student , currently moving into my second
-              year. I’m passionate about web development and currently on the
-              path to becoming a <span>Full Stack</span> Web Developer. So far,
-              I’ve completed courses in <span>HTML</span> and <span>CSS</span>,
-              and I’m now diving into <span>JavaScript</span>. Along the way,
-              I’ve <span>built 4 hands-on projects</span> from Osama Elzero’s
-              tutorials, which gave me a solid understanding of frontend
-              fundamentals. I believe in learning by doing — so I'm always
-              practicing, exploring new technologies, and building stuff that
-              helps me grow.
-              <p>What I’m currently working on:</p>
-              <ul>
-                <li>Advancing my JavaScript skills</li>
-                <li>Building interactive frontend projects</li>
-                <li>Preparing to learn React and Node.js next</li>
-              </ul>
-              This site is a reflection of my journey — and I’m just getting
-              started.
-            </div>
-            <a href="#">Download CV</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End About Section -->
-    <!-- Start Services Section -->
-    <div class="services" id="services">
-      <div class="container">
-        <div class="main-heading">
-          <h2>My Services</h2>
-          <p>What i provide</p>
-        </div>
-        <div class="services-content">
-          <div class="service">
-            <i class="fa-solid fa-paintbrush"></i>
-            <h2>Web Design</h2>
+          <div class="about-text fade-in">
+            <h3>I'm Ali Khaled, a <span>Programmer</span></h3>
             <p>
-              I craft modern, responsive website that not only look good but
-              also provide an intuitive user experience. Whether it’s a personal
-              blog or a business website, I foucs on clean code, speed, and
-              usability.
+              I'm a Computer Science student currently moving into my second
+              year. My passion lies in web development, and I am on a dedicated
+              path to becoming a Full Stack Web Developer.
             </p>
-          </div>
-          <div class="service">
-            <i class="fa-solid fa-chart-line"></i>
-            <h2>Advertising</h2>
             <p>
-              I help brands grow by designing eye-catching online ads and
-              campaiagns. From social media graphics to promotional banners, I
-              ensure your message stands out and reaches the right audience.
+              So far, I've mastered HTML, CSS, and modern JavaScript, and I'm
+              currently diving deep into advanced frontend frameworks. I believe
+              in "learning by doing", constantly building hands-on projects to
+              refine my skills.
             </p>
-          </div>
-          <div class="service">
-            <i class="fa-solid fa-code"></i>
-            <h2>Apps Design</h2>
-            <p>
-              I design sleek , user-friendly mobile app interfaces. My goal is
-              to create engaging designs that feel natural to users-turning
-              complex ideas into simple, beautiful screens.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Services Section -->
-    <!-- Start Skills Section -->
-    <div class="skills" id="skills">
-      <div class="container">
-        <div class="main-heading">
-          <h2>My skills</h2>
-          <p>what i know</p>
-        </div>
-        <div class="skills-content">
-          <div class="expriences-skill">
-            <h2>My Creative Skills & expriences</h2>
-            <p>
-              I'm a passionate web development student with a strong focus on
-              building clean and responsive designs. I’ve learned HTML and CSS,
-              and I’m currently improving my JavaScript skills by working on
-              real-world projects. I’ve already completed several practice
-              projects from Osama Elzero's tutorials, which helped me gain
-              hands-on experience and understand the core of frontend
-              development. I enjoy solving problems, learning new technologies,
-              and turning ideas into working code.
-            </p>
-            <a href="#">Read more</a>
-          </div>
-          <div class="row-skill">
-            <div class="row">
-              <h2>HTML<span>90%</span></h2>
-              <div class="the-progress">
-                <span style="width: 90%"></span>
-              </div>
-            </div>
-            <div class="row">
-              <h2>CSS<span>85%</span></h2>
-              <div class="the-progress">
-                <span style="width: 85%"></span>
-              </div>
-            </div>
-            <div class="row">
-              <h2>JavaScript<span>10%</span></h2>
-              <div class="the-progress">
-                <span style="width: 10%"></span>
-              </div>
-            </div>
-            <div class="row">
-              <h2>PHP<span>0%</span></h2>
-              <div class="the-progress">
-                <span style="width: 0%"></span>
-              </div>
-            </div>
-            <div class="row">
-              <h2>MySQL<span>0%</span></h2>
-              <div class="the-progress">
-                <span style="width: 0%"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Skills Section -->
-    <!-- Start Projects Section -->
-    <div class="projects" id="projects">
-      <div class="container">
-        <div class="main-heading">
-          <h2>My Projects</h2>
-          <p>What I’ve Built</p>
-        </div>
-        <div class="projects-content">
-          <div class="card">
-            <div class="face">
-              <img src="image/projects-01.png" alt="" loading="lazy" />
-            </div>
-            <div class="back">
-              <h2>Leon-PSD Agency Template</h2>
-              <p>
-                The first project from Osama Al-Zero's channel and the
-                comprehensive project of his HTML, CSS and PSD project from the
-                graphberry website
-              </p>
-              <a
-                href="https://engali983.github.io/HTML_And_CSS_Template_One/"
-                target="_blank"
-                >Visite Website</a
-              >
-            </div>
-          </div>
-          <div class="card">
-            <div class="face">
-              <img src="image/projects-02.png" alt="" loading="lazy" />
-            </div>
-            <div class="back">
-              <h2>Kasper - One Page Creative PSD Template</h2>
-              <p>
-                The second project from Osama Al-Zero's channel and the
-                comprehensive project of his HTML, CSS and PSD project from the
-                graphberry website
-              </p>
-              <a
-                href="https://engali983.github.io/HTML_And_CSS_Template_Two/"
-                target="_blank"
-                >Visite Website</a
-              >
-            </div>
-          </div>
-          <div class="card">
-            <div class="face">
-              <img src="image/projects-03.png" alt="" loading="lazy" />
-            </div>
-            <div class="back">
-              <h2>The third design of the Elzero Channel</h2>
-              <p>
-                The third project from Osama Al-Zero's channel and the
-                comprehensive project of his HTML, CSS and PSD project from the
-                graphberry website
-              </p>
-              <a
-                href="https://engali983.github.io/HTML_And_CSS_Template_Three/"
-                target="_blank"
-                >Visite Website</a
-              >
-            </div>
-          </div>
-          <div class="card">
-            <div class="face">
-              <img src="image/projects-04.png" alt="" loading="lazy" />
-            </div>
-            <div class="back">
-              <h2>Fourth design of the Elzero Channel</h2>
-              <p>
-                The Fourth project from Osama Al-Zero's channel and the
-                comprehensive project of his HTML, CSS and PSD project from the
-                graphberry website
-              </p>
-              <a
-                href="https://engali983.github.io/HTML_And_CSS_Template_Four/"
-                target="_blank"
-                >Visite Website</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Projects Section -->
-    <!-- Start Conatct Section -->
-    <div class="contact" id="contact">
-      <div class="container">
-        <div class="main-heading">
-          <h2>Contact me</h2>
-          <p>get in touch</p>
-        </div>
-        <div class="contact-content">
-          <div class="left">
-            <h2>Get in touch</h2>
-            <p>
-              If you have any questions or want to work together, feel free to
-              reach out!
-            </p>
-            <ul>
+
+            <ul class="about-list">
               <li>
-                <i class="fa-solid fa-user"></i>
-                <div class="info">
-                  <h2>Name</h2>
-                  <p>Ali Khaled</p>
-                </div>
+                <i class="fa-solid fa-check-circle"></i> Web Development
+                (Frontend Focus)
               </li>
               <li>
-                <i class="fa-solid fa-location-dot"></i>
-                <div class="info">
-                  <h2>Address</h2>
-                  <p>Sharqiya, Abu Kabir</p>
-                </div>
+                <i class="fa-solid fa-check-circle"></i> Responsive UI/UX Design
               </li>
               <li>
-                <i class="fa-solid fa-envelope"></i>
-                <div class="info">
-                  <h2>Email</h2>
-                  <p>aa@gmail.com</p>
-                </div>
+                <i class="fa-solid fa-check-circle"></i> Clean & Modern Code
               </li>
             </ul>
-          </div>
-          <div class="right">
-            <h2>Message me</h2>
-            <form class="user-info">
-              <input type="text" placeholder="Name" required />
-              <input type="email" placeholder="Email" required />
-            </form>
-            <form class="user-message">
-              <input type="text" placeholder="Subject" required />
-              <textarea placeholder="Message.."></textarea>
-            </form>
-            <a href="#">Send massage</a>
+
+            <a href="#" class="btn btn-primary">Download CV</a>
           </div>
         </div>
       </div>
-    </div>
-    <!-- End Conatct Section -->
-    <!-- Start Footer -->
-    <div class="footer">
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section-padding" id="services">
       <div class="container">
-        <div class="foot">
-          Creat By <a href="#">Ali Khaled</a> © 2025 All Right Reserved
+        <div class="section-header text-center fade-in">
+          <p class="section-subtitle">What I Offer</p>
+          <h2 class="section-title">My Services</h2>
+        </div>
+        <div class="services-grid">
+          <div class="service-card fade-in">
+            <div class="service-icon">
+              <i class="fa-solid fa-paintbrush"></i>
+            </div>
+            <h3>Web Design</h3>
+            <p>
+              I craft modern, responsive websites that not only look stunning
+              but also provide an intuitive user experience across all devices.
+            </p>
+          </div>
+          <div class="service-card fade-in">
+            <div class="service-icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h3>Web Development</h3>
+            <p>
+              Turning designs into clean, semantic, and high-performance code
+              using the latest web technologies.
+            </p>
+          </div>
+          <div class="service-card fade-in">
+            <div class="service-icon">
+              <i class="fa-solid fa-mobile-screen"></i>
+            </div>
+            <h3>Responsive Layouts</h3>
+            <p>
+              Ensuring your website looks perfect on desktops, tablets, and
+              mobile phones with liquid layouts and media queries.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- End Footer -->
-    <script src="main.js"></script>
-    <script src="server.js"></script>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section-padding" id="skills">
+      <div class="container">
+        <div class="section-header text-center fade-in">
+          <p class="section-subtitle">My Stack</p>
+          <h2 class="section-title">Skills & Technologies</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card fade-in">
+            <i class="fa-brands fa-html5 skill-icon" style="color: #e34f26"></i>
+            <h4>HTML5</h4>
+          </div>
+          <div class="skill-card fade-in">
+            <i
+              class="fa-brands fa-css3-alt skill-icon"
+              style="color: #1572b6"
+            ></i>
+            <h4>CSS3</h4>
+          </div>
+          <div class="skill-card fade-in">
+            <i class="fa-brands fa-js skill-icon" style="color: #f7df1e"></i>
+            <h4>JavaScript</h4>
+          </div>
+          <div class="skill-card fade-in">
+            <i class="fa-brands fa-sass skill-icon" style="color: #cc6699"></i>
+            <h4>SASS</h4>
+          </div>
+          <div class="skill-card fade-in">
+            <i
+              class="fa-brands fa-github skill-icon"
+              style="color: #ffffff"
+            ></i>
+            <h4>Git/GitHub</h4>
+          </div>
+          <div class="skill-card fade-in">
+            <i class="fa-solid fa-code skill-icon" style="color: #38bdf8"></i>
+            <h4>Tailwind</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section-padding" id="projects">
+      <div class="container">
+        <div class="section-header text-center fade-in">
+          <p class="section-subtitle">Portfolio</p>
+          <h2 class="section-title">My Projects</h2>
+        </div>
+        <div class="projects-grid" id="projects-grid">
+          <!-- Projects will be loaded dynamically via JS -->
+          <p class="text-center" style="width: 100%; grid-column: 1/-1">
+            Loading projects...
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section-padding" id="contact">
+      <div class="container">
+        <div class="section-header text-center fade-in">
+          <p class="section-subtitle">Get In Touch</p>
+          <h2 class="section-title">Contact Me</h2>
+        </div>
+        <div class="contact-container">
+          <div class="contact-info fade-in">
+            <h3 style="font-size: 28px; margin-bottom: 20px">Let's Talk</h3>
+            <p style="color: var(--text-muted); margin-bottom: 40px">
+              Have a project in mind or want to collaborate? I'm open to
+              opportunities and would love to hear from you.
+            </p>
+
+            <div class="contact-info-item">
+              <div class="contact-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div>
+                <h4>Address</h4>
+                <p style="color: var(--text-muted)">
+                  Sharqiya, Abu Kabir, Egypt
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <p style="color: var(--text-muted)">aa@gmail.com</p>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form fade-in">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Subject"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                class="form-control"
+                placeholder="Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          Created By <a href="#">Ali Khaled</a> | &copy; 2025 All Rights
+          Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
   </body>
 </html>

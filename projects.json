@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Leon Agency",
+    "description": "A pixel-perfect conversion of a PSD template into a responsive website using HTML & CSS. Features a clean, professional agency layout.",
+    "image": "image/projects-01.png",
+    "link": "https://engali983.github.io/HTML_And_CSS_Template_One/",
+    "tags": ["HTML", "CSS", "Responsive"]
+  },
+  {
+    "id": 2,
+    "title": "Kasper Creative",
+    "description": "A modern one-page artistic portfolio template. Implements complex layout techniques and attention to detail for a creative look.",
+    "image": "image/projects-02.png",
+    "link": "https://engali983.github.io/HTML_And_CSS_Template_Two/",
+    "tags": ["HTML", "CSS", "Design"]
+  },
+  {
+    "id": 3,
+    "title": "Project Three",
+    "description": "The third comprehensive design project from Elzero's curriculum, showcasing advanced layout patterns and styling.",
+    "image": "image/projects-03.png",
+    "link": "https://engali983.github.io/HTML_And_CSS_Template_Three/",
+    "tags": ["HTML", "CSS", "Flexbox"]
+  },
+  {
+    "id": 4,
+    "title": "Project Four",
+    "description": "A sophisticated multi-section template focusing on structure, typography, and visual hierarchy.",
+    "image": "image/projects-04.png",
+    "link": "https://engali983.github.io/HTML_And_CSS_Template_Four/",
+    "tags": ["HTML", "CSS", "Grid"]
+  }
+]
