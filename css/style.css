@@ -499,6 +499,10 @@ img {
   color: white;
   transform: scale(1.2);
 }
+.social-media ul li.insta:hover i {
+  color: white;
+  transform: scale(1.2);
+}
 
 .form-group {
   margin-bottom: 20px;
