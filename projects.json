@@ -30,5 +30,13 @@
     "image": "image/projects-04.png",
     "link": "https://engali983.github.io/HTML_And_CSS_Template_Four/",
     "tags": ["HTML", "CSS", "Grid"]
+  },
+  {
+    "id": 5,
+    "title": "To-Do List",
+    "description": "A responsive and user-friendly To-Do List web application that allows users to add, manage, and persist tasks using LocalStorage. Built with HTML, CSS, and Vanilla JavaScript, focusing on clean UI, smooth UX, and core front-end concepts.",
+    "image": "image/To-Do List.png",
+    "link": "https://engali983.github.io/To-Do-List/",
+    "tags": ["HTML", "CSS", "JS"]
   }
 ]
