@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!projectsContainer) return; // Guard clause
 
     try {
-      const response = await fetch("../projects.json");
+      const response = await fetch("projects.json");
 
       if (!response.ok)
         throw new Error(`HTTP error! status: ${response.status}`);
