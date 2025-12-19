@@ -37,6 +37,6 @@
     "description": "A responsive and user-friendly To-Do List web application that allows users to add, manage, and persist tasks using LocalStorage. Built with HTML, CSS, and Vanilla JavaScript, focusing on clean UI, smooth UX, and core front-end concepts.",
     "image": "image/To-Do List.png",
     "link": "https://engali983.github.io/To-Do-List/",
-    "tags": ["HTML", "CSS", "JS"]
+    "tags": ["HTML", "CSS", "JavaScript"]
   }
 ]
