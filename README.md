@@ -37,7 +37,7 @@ My current stack focuses on delivering fast and scalable frontend solutions:
 ├── image/                # Optimized assets
 ├── projects.json         # Data source for portfolio items
 └── index.html            # Main entry point
-
+```
 ---
 
 ## 📈 My Roadmap
