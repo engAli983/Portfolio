@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
         isScrolling = true;
       }
     },
-    { passive: true }
+    { passive: true },
   ); // passive: true improves scrolling performance
 
   // === 2. Mobile Menu ===
@@ -89,8 +89,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 <article class="project-card fade-in">
                     <div class="card-image">
                         <img src="${project.image}" alt="${
-            project.title
-          }" loading="lazy" width="100%" height="auto">
+                          project.title
+                        }" loading="lazy" width="100%" height="auto">
                         <div class="card-overlay">
                             <a href="${
                               project.link
@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <p>${project.description}</p>
                     </div>
                 </article>
-            `
+            `,
         )
         .join("");
 
