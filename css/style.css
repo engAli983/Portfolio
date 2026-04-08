@@ -76,6 +76,7 @@ img {
   font-weight: 600;
   cursor: pointer;
   border: 2px solid transparent;
+  transition: var(--transition);
 }
 
 .btn-primary {
@@ -178,6 +179,22 @@ img {
   cursor: pointer;
 }
 
+.close-btn {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  color: var(--text-main);
+  transition: var(--transition);
+}
+
+.close-btn:hover {
+  color: var(--primary-color);
+  transform: rotate(90deg);
+}
+
 /* === Hero Section === */
 .hero {
   height: 100vh;
@@ -188,6 +205,12 @@ img {
               var(--bg-dark);
   position: relative;
   overflow: hidden;
+  background:
+    linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.9)),
+    url("../image/ali-khaled.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .hero-content {
@@ -333,6 +356,8 @@ img {
 .highlight-text {
   color: var(--primary-color);
   text-shadow: 0 0 10px rgba(0, 242, 254, 0.4);
+.about-text h3 span {
+  color: var(--primary-color);
 }
 
 .about-text p {
@@ -423,13 +448,15 @@ img {
   width: 50px;
   height: 50px;
   margin-bottom: 15px;
+  font-size: 50px;
 }
 
-/* === Projects === */
+/* === Projects Grid === */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
+  width: 100%;
 }
 
 .project-card {
@@ -440,6 +467,8 @@ img {
   border-radius: var(--radius);
   overflow: hidden;
   transition: var(--transition);
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card:hover {
@@ -457,59 +486,108 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: 0.5s;
+  transition: var(--transition);
 }
 
 .project-card:hover .card-image img {
-  transform: scale(1.1);
-}
-
-.card-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  transition: 0.4s;
-}
-
-.project-card:hover .card-overlay {
-  opacity: 1;
+  transform: scale(1.05);
 }
 
 .card-content {
   padding: 25px;
-}
-
-.tags {
-  margin-bottom: 15px;
   display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
-.tag {
-  background: rgba(255, 51, 95, 0.1);
-  color: var(--primary-color);
-  padding: 4px 12px;
-  border-radius: 20px;
-  font-size: 12px;
-  font-weight: 600;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .card-content h3 {
-  margin-bottom: 10px;
-  font-size: 20px;
+  margin-bottom: 12px;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-main);
+  text-transform: capitalize;
 }
 
 .card-content p {
   color: var(--text-muted);
+  font-size: 15px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  flex-grow: 1;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.tech-tag {
+  border-radius: 20px;
+  background: rgba(255, 51, 95, 0.15); /* var(--primary-color) with opacity */
+  color: var(--primary-color);
+  padding: 5px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.tech-tag:hover {
+  background: var(--primary-color);
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.card-footer-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-main);
   font-size: 14px;
+  font-weight: 600;
+}
+
+.card-footer-link:hover {
+  color: var(--primary-color);
+}
+
+.card-footer-link i {
+  font-size: 16px;
+}
+
+.demo-btn {
+  background: linear-gradient(45deg, var(--primary-color), #ff6b8b);
+  color: white;
+  padding: 8px 18px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 51, 95, 0.4);
+  border: none;
+}
+
+.demo-btn:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 6px 20px rgba(255, 51, 95, 0.6);
+  color: white;
+}
+
+.demo-btn i {
+  font-size: 15px;
 }
 
 /* === Contact === */
@@ -664,6 +742,10 @@ textarea.form-control {
     display: block;
   }
 
+  .close-btn {
+    display: block;
+  }
+
   .nav-links {
     position: fixed;
     top: 0;
@@ -684,6 +766,10 @@ textarea.form-control {
 
   .section-title {
     font-size: 32px;
+  }
+
+  .carousel-btn {
+    display: none;
   }
 }
 
