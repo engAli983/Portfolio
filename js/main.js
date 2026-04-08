@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const customProjectData = {
     Portfolio: {
       title: "Personal Developer Portfolio",
-      image: "../image/Portfolio.webp",
+      image: "image/Portfolio.webp",
       description:
         "A dynamic and fully responsive personal portfolio built to showcase my skills and projects. Features real-time GitHub API integration for project fetching, smooth scroll animations using Intersection Observer, and a fully functional contact form powered by EmailJS.",
       tags: [
@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     "forkify-api": {
       title: "Forkify Recipe Explorer",
-      image: "../image/Forkiy-Api.webp",
+      image: "image/Forkiy-Api.webp",
       description:
         "A dynamic recipe application built by integrating the free Forkify REST API. It features 7 distinct food categories with pagination, rendering multiple recipe cards dynamically. Showcases advanced asynchronous JavaScript, API data fetching, and dynamic UI updates.",
       tags: ["HTML5", "CSS3", "JavaScript", "REST API", "Async/Await", "DOM"],
@@ -119,21 +119,21 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     "The_Holy_Qur-an": {
       title: "Interactive Holy Quran Web App",
-      image: "../image/The-Holy-Qur-an.webp",
+      image: "image/The-Holy-Qur-an.webp",
       description:
         "A sophisticated spiritual web application that integrates the Al-Quran Cloud API. It features dynamic Surah loading, a custom multi-color bookmarking system using LocalStorage, smart auto-scroll to saved verses, and a beautiful traditional UI designed with modern CSS layout techniques.",
       tags: ["JavaScript", "REST API", "LocalStorage", "Modern CSS"],
       demoLink: "https://engali983.github.io/The_Holy_Qur-an/",
     },
     "card-pay": {
-      image: "../image/Card-Pay.webp",
+      image: "image/Card-Pay.webp",
       description:
         "A dynamic and interactive credit card payment interface. Features real-time data synchronization between the form and the card UI, a 3D-like flip animation when focusing on CVV, card number formatting, and integrated form validation with a success modal.",
       tags: ["Vanilla JS", "CSS 3D Transforms", "DOM Manipulation", "UI/UX"],
       demoLink: "https://engali983.github.io/card-pay/",
     },
     "E-commerce": {
-      image: "../image/E-commerce.webp",
+      image: "image/E-commerce.webp",
       description:
         "A comprehensive e-commerce frontend built entirely with Vanilla JavaScript. Features dynamic product rendering from a JSON file, a fully functional shopping cart and wishlist managed via LocalStorage, and interactive product sliders using Swiper.js.",
       tags: [
@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     Landing_page_bites: {
       title: "Bites Restaurant Web App",
-      image: "../image/Landing-Page-Bits.webp",
+      image: "image/Landing-Page-Bits.webp",
       description:
         "A premium restaurant web application built entirely with Vanilla JavaScript. Features a dynamic menu with live search and filtering, a fully functional shopping cart managed via LocalStorage, and an advanced multi-step table reservation system with WhatsApp integration.",
       tags: [
@@ -163,7 +163,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     "Family-Bakery": {
       title: "Family Bakery",
-      image: "../image/Family-Bakiry.webp",
+      image: "image/Family-Bakiry.webp",
       description:
         "A beautifully crafted, fully responsive landing page for a local bakery. Features smooth scroll animations using Intersection Observer, an interactive product modal, and smart dynamic UI updates like highlighting current business hours.",
       tags: [
@@ -178,7 +178,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     "To-Do-List": {
       title: "Interactive To-Do List",
-      image: "../image/To-Do-List.Webp",
+      image: "image/To-Do-List.Webp",
       description:
         "A sleek and interactive task management application built with Vanilla JavaScript. Features persistent data storage using LocalStorage, dynamic DOM manipulation, and event delegation for optimized performance and a seamless user experience.",
       tags: [
@@ -194,7 +194,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     HTML_And_CSS_Template_One: {
       title: "Leon Creative Agency",
-      image: "../image/HTML-And-CSS-Template-One.webp",
+      image: "image/HTML-And-CSS-Template-One.webp",
       description:
         "A modern, minimalist single-page agency template. Enhanced with custom Vanilla JavaScript features including a dynamic typewriter effect, smooth scroll animations via Intersection Observer, and an interactive portfolio filter.",
       tags: ["HTML5", "CSS3", "HTML", "CSS", "Vanilla JS", "DOM"],
@@ -202,7 +202,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     HTML_And_CSS_Template_Two: {
       title: "Kasper Premium Portfolio",
-      image: "../image/HTML-And-CSS-Template-Two.webp",
+      image: "image/HTML-And-CSS-Template-Two.webp",
       description:
         "A fully responsive, premium agency template enhanced with advanced Vanilla JavaScript. Features a persistent dark/light mode toggle, scroll-triggered animations using Intersection Observer, dynamic statistic counters, and an interactive project filter.",
       tags: [
@@ -217,7 +217,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     HTML_And_CSS_Template_Three: {
       title: "Advanced UI Template",
-      image: "../image/HTML-And-CSS-Template-Three.webp",
+      image: "image/HTML-And-CSS-Template-Three.webp",
       description:
         "A highly detailed, multi-section web template demonstrating advanced CSS3 architecture. Showcases a complex mega-menu, intricate keyframe animations, creative pseudo-element styling, and a pixel-perfect responsive layout using CSS Grid and Flexbox.",
       tags: ["HTML5", "CSS3", "Advanced CSS", "CSS Grid", "Animations"],
@@ -225,7 +225,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     HTML_And_CSS_Template_Four: {
       title: "Dashboard",
-      image: "../image/HTML-And-CSS-Template-Four.webp",
+      image: "image/HTML-And-CSS-Template-Four.webp",
       description:
         "A comprehensive and responsive admin dashboard featuring interactive charts, task management, and data widgets. Built to showcase complex UI structuring and DOM manipulation.",
       tags: ["HTML/CSS", "CSS Grid", "Custom Framework", "Multi-page UI"],
