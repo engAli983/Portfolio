@@ -1,10 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ali Khaled | Full Stack Developer</title>
 
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Portfolio of Ali Khaled, a passionate Front-End Web Developer skilled in HTML, CSS, JavaScript, and creating modern, responsive, and robust web applications."
+    />
+    <meta
+      name="keywords"
+      content="Ali Khaled, engAli983, Front End Developer, Web Developer, JavaScript Developer, portfolio, Ali Khaled web developer, HTML, CSS, JS, UI/UX, responsive web design, single-page applications, REST API integration, freelance developer"
+    />
+    <meta name="author" content="Ali Khaled" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph for Social Media -->
+    <meta property="og:title" content="Ali Khaled | Front End Developer" />
+    <meta
+      property="og:description"
+      content="Portfolio of Ali Khaled, expert Front-End Developer building interactive, responsive, and tailored web applications."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://engali983.github.io/Portfolio/" />
+
+    <title>Ali Khaled | Front End Developer</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,6 +50,9 @@
           <i class="fa-solid fa-bars"></i>
         </div>
         <nav class="nav-links">
+          <div class="close-btn">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
           <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#services">Services</a>
@@ -46,9 +70,10 @@
           <p class="hero-subtitle">Hello, I'm</p>
           <h1 class="hero-title">Ali Khaled</h1>
           <p class="hero-text">
-            A passionate Computer Science student and aspiring Full Stack Web
-            Developer building modern, responsive, and user-friendly web
-            experiences.
+            Dedicated Front-End Developer specializing in crafting modern,
+            responsive, and intuitive web interfaces. Ready to tackle your
+            project's challenges and build a digital experience your users will
+            love.
           </p>
           <a href="#contact" class="btn btn-primary">Hire Me</a>
           <a href="#projects" class="btn btn-outline" style="margin-left: 15px"
@@ -70,17 +95,18 @@
             <img src="image/Ali-Khaled1.jpg" alt="Ali Khaled" loading="lazy" />
           </div>
           <div class="about-text fade-in">
-            <h3>I'm Ali Khaled, a <span>Programmer</span></h3>
+            <h3>I'm Ali Khaled, A <span>Front-End Developer</span></h3>
             <p>
-              I'm a Computer Science student currently moving into my second
-              year. My passion lies in web development, and I am on a dedicated
-              path to becoming a Full Stack Web Developer.
+              I am a dedicated Front-End Developer with a strong academic
+              foundation in Computer Science. My passion lies in web development
+              and transforming complex ideas into elegant, user-friendly web
+              interfaces
             </p>
             <p>
-              So far, I've mastered HTML, CSS, and modern JavaScript, and I'm
-              currently diving deep into advanced frontend frameworks. I believe
-              in "learning by doing", constantly building hands-on projects to
-              refine my skills.
+              I am highly proficient in HTML, CSS, and modern JavaScript, and I
+              am continually expanding my expertise by building hands-on
+              projects with advanced frontend frameworks. I believe in writing
+              clean, maintainable code that delivers real-world value.
             </p>
 
             <ul class="about-list">
@@ -96,7 +122,13 @@
               </li>
             </ul>
 
-            <a href="#" class="btn btn-primary" download>Download CV</a>
+            <a
+              href="docs/Ali_Khaled_CV.pdf"
+              download="Ali_Khaled_FrontEnd_CV.pdf"
+              class="btn btn-primary"
+              download
+              >Download CV</a
+            >
           </div>
         </div>
       </div>
@@ -110,34 +142,74 @@
           <h2 class="section-title">My Services</h2>
         </div>
         <div class="services-grid">
+          <!-- Card 1 -->
           <div class="service-card fade-in">
             <div class="service-icon">
-              <i class="fa-solid fa-paintbrush"></i>
+              <i class="fa-solid fa-laptop-code"></i>
             </div>
-            <h3>Web Design</h3>
+            <h3>Front-End Development</h3>
             <p>
-              I craft modern, responsive websites that not only look stunning
-              but also provide an intuitive user experience across all devices.
+              Transforming UI/UX designs (Figma, Adobe XD) into pixel-perfect,
+              interactive, and semantic code using modern HTML, CSS, and
+              JavaScript.
             </p>
           </div>
+          <!-- Card 2 -->
           <div class="service-card fade-in">
             <div class="service-icon">
-              <i class="fa-solid fa-code"></i>
+              <i class="fa-solid fa-layer-group"></i>
             </div>
-            <h3>Web Development</h3>
+            <h3>Dynamic Web Applications</h3>
             <p>
-              Turning designs into clean, semantic, and high-performance code
-              using the latest web technologies.
+              Building fast, interactive single-page applications (SPAs)
+              featuring complex DOM manipulation, state management, and seamless
+              REST API integrations.
             </p>
           </div>
+          <!-- Card 3 -->
           <div class="service-card fade-in">
             <div class="service-icon">
-              <i class="fa-solid fa-mobile-screen"></i>
+              <i class="fa-solid fa-mobile-screen-button"></i>
             </div>
-            <h3>Responsive Layouts</h3>
+            <h3>Responsive UI & Optimization</h3>
             <p>
-              Ensuring your website looks perfect on desktops, tablets, and
-              mobile phones with liquid layouts and media queries.
+              Crafting mobile-first, fully responsive layouts with smooth
+              animations, ensuring a flawless and accessible user experience
+              across all devices and screen sizes.
+            </p>
+          </div>
+          <!-- Card 4 -->
+          <div class="service-card fade-in">
+            <div class="service-icon">
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </div>
+            <h3>Interactive UI & Animations</h3>
+            <p>
+              Bringing websites to life with engaging CSS animations, scroll
+              effects, and smooth JavaScript interactions that captivate users.
+            </p>
+          </div>
+          <!-- Card 5 -->
+          <div class="service-card fade-in">
+            <div class="service-icon">
+              <i class="fa-solid fa-network-wired"></i>
+            </div>
+            <h3>API Integration & Data Handling</h3>
+            <p>
+              Connecting front-end interfaces with external REST APIs to fetch,
+              process, and display real-time data seamlessly.
+            </p>
+          </div>
+          <!-- Card 6 -->
+          <div class="service-card fade-in">
+            <div class="service-icon">
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+            </div>
+            <h3>Maintenance & UI Upgrades</h3>
+            <p>
+              Refactoring legacy code, fixing UI bugs, and adding modern
+              features to existing websites to keep them fast, secure, and
+              up-to-date.
             </p>
           </div>
         </div>
@@ -167,17 +239,10 @@
             <i class="fa-brands fa-js skill-icon" style="color: #f7df1e"></i>
             <h4>JavaScript</h4>
           </div>
-          <div class="skill-card fade-in">
+          <!-- <div class="skill-card fade-in">
             <i class="fa-brands fa-sass skill-icon" style="color: #cc6699"></i>
             <h4>SASS</h4>
-          </div>
-          <div class="skill-card fade-in">
-            <i
-              class="fa-brands fa-github skill-icon"
-              style="color: #ffffff"
-            ></i>
-            <h4>Git/GitHub</h4>
-          </div>
+          </div> -->
           <div class="skill-card fade-in">
             <svg
               class="w-6 h-6 text-gray-800 dark:text-white"
@@ -192,6 +257,20 @@
             </svg>
             <h4>Tailwind</h4>
           </div>
+          <div class="skill-card fade-in">
+            <i
+              class="fa-brands fa-bootstrap skill-icon"
+              style="color: #7952b3"
+            ></i>
+            <h4>Bootstrap</h4>
+          </div>
+          <div class="skill-card fade-in">
+            <i
+              class="fa-brands fa-github skill-icon"
+              style="color: #ffffff"
+            ></i>
+            <h4>Git/GitHub</h4>
+          </div>
         </div>
       </div>
     </section>
@@ -203,11 +282,37 @@
           <p class="section-subtitle">Portfolio</p>
           <h2 class="section-title">My Projects</h2>
         </div>
-        <div class="projects-grid" id="projects-grid">
-          <!-- Projects will be loaded dynamically via JS -->
-          <p class="text-center" style="width: 100%; grid-column: 1/-1">
-            Loading projects...
-          </p>
+        <div id="projects-container">
+          <div class="projects-grid" id="projects-grid">
+            <!-- Projects will be loaded dynamically via JS -->
+            <p class="text-center" style="width: 100%; padding: 20px">
+              Loading projects...
+            </p>
+          </div>
+          <div
+            class="text-center"
+            style="
+              margin-top: 40px;
+              display: flex;
+              justify-content: center;
+              gap: 15px;
+            "
+          >
+            <button
+              id="show-less-btn"
+              class="btn btn-outline"
+              style="display: none; padding: 12px 40px"
+            >
+              Show Less
+            </button>
+            <button
+              id="load-more-btn"
+              class="btn btn-outline"
+              style="display: none; padding: 12px 40px"
+            >
+              Load More
+            </button>
+          </div>
         </div>
       </div>
     </section>
@@ -246,7 +351,7 @@
               <div>
                 <h4>Email</h4>
                 <p style="color: var(--text-muted)">
-                  aa01033458035aa@gmail.com
+                  ali.khaled.akm.2006.19@gmail.com
                 </p>
               </div>
             </div>
@@ -276,10 +381,11 @@
             </div>
           </div>
 
-          <form class="contact-form fade-in">
+          <form class="contact-form fade-in" id="contact-form">
             <div class="form-group">
               <input
                 type="text"
+                name="name"
                 class="form-control"
                 placeholder="Your Name"
                 required
@@ -288,6 +394,7 @@
             <div class="form-group">
               <input
                 type="email"
+                name="email"
                 class="form-control"
                 placeholder="Your Email"
                 required
@@ -296,6 +403,7 @@
             <div class="form-group">
               <input
                 type="text"
+                name="subject"
                 class="form-control"
                 placeholder="Subject"
                 required
@@ -303,12 +411,25 @@
             </div>
             <div class="form-group">
               <textarea
+                name="message"
                 class="form-control"
                 placeholder="Message"
                 required
               ></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Send Message</button>
+            <button type="submit" class="btn btn-primary" id="submit-btn">
+              Send Message
+            </button>
+
+            <p
+              id="form-message"
+              style="
+                display: none;
+                margin-top: 15px;
+                font-weight: bold;
+                text-align: center;
+              "
+            ></p>
           </form>
         </div>
       </div>
@@ -325,6 +446,16 @@
     </footer>
 
     <!-- Scripts -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        // استبدل 'YOUR_PUBLIC_KEY' بالمفتاح العام بتاعك من إعدادات الحساب
+        emailjs.init("tnxt5D3YOAAPOPjCv");
+      })();
+    </script>
     <script src="js/main.js"></script>
   </body>
 </html>
