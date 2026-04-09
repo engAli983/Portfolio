@@ -178,12 +178,10 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     "To-Do-List": {
       title: "Interactive To-Do List",
-      image: "image/To-Do-List.Webp",
+      image: "image/To-Do-List.webp",
       description:
         "A sleek and interactive task management application built with Vanilla JavaScript. Features persistent data storage using LocalStorage, dynamic DOM manipulation, and event delegation for optimized performance and a seamless user experience.",
       tags: [
-        "HTML5",
-        "CSS3",
         "HTML5",
         "CSS3",
         "Vanilla JS",
@@ -197,7 +195,7 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "image/HTML-And-CSS-Template-One.webp",
       description:
         "A modern, minimalist single-page agency template. Enhanced with custom Vanilla JavaScript features including a dynamic typewriter effect, smooth scroll animations via Intersection Observer, and an interactive portfolio filter.",
-      tags: ["HTML5", "CSS3", "HTML", "CSS", "Vanilla JS", "DOM"],
+      tags: ["HTML5", "CSS3", "Vanilla JS", "DOM"],
       demoLink: "https://engali983.github.io/HTML_And_CSS_Template_One/",
     },
     HTML_And_CSS_Template_Two: {
