@@ -89,6 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "Artificial-intelligence-templates-",
     "engAli983",
     "JS_Practice",
+    "eldwaly",
   ];
 
   // Object to override GitHub data with custom details locally
@@ -181,13 +182,7 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "image/To-Do-List.webp",
       description:
         "A sleek and interactive task management application built with Vanilla JavaScript. Features persistent data storage using LocalStorage, dynamic DOM manipulation, and event delegation for optimized performance and a seamless user experience.",
-      tags: [
-        "HTML5",
-        "CSS3",
-        "Vanilla JS",
-        "LocalStorage",
-        "DOM Manipulation",
-      ],
+      tags: ["HTML5", "CSS3", "Vanilla JS", "LocalStorage", "DOM Manipulation"],
       demoLink: "https://engali983.github.io/To-Do-List/",
     },
     HTML_And_CSS_Template_One: {
